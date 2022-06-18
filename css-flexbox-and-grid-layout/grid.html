@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Layout</title>
+    <style>
+        <!-- body {
+        width: 100vw;
+        min-width: 100vh;
+        display: grid;
+        justify-content: center;
+        align-items: center;
+        background-color: rgb(32, 31, 31);
+        }
+        -->
+        .container
+        {
+        justify-content:
+        center;
+        align-items:
+        center;
+        margin:
+        3rem;
+        width:
+        600px;
+        height:
+        450px;
+        min-height:
+        300px;
+        background-color:
+        rgb(27,
+        27,
+        51);
+        display:
+        grid;
+        gap:
+        15px;
+        grid-template-columns:
+        repeat(6,
+        1fr);
+        grid-template-rows:
+        repeat(4,
+        1fr);
+        grid-template-areas:
+        "one
+        one
+        one
+        one
+        two
+        two"
+        "one
+        one
+        one
+        one
+        two
+        two"
+        "three
+        three
+        three
+        four
+        four
+        four"
+        "three
+        three
+        three
+        five
+        five
+        five";
+        }
+        .grid {
+        display:
+        flex;
+        width:
+        100%;
+        height:
+        100%;
+        justify-content:
+        center;
+        align-items:
+        center;
+        color:
+        #fff;
+        }
+        .item1
+        {
+        background-color:
+        rgb(249,
+        73,
+        9);
+        grid-area:
+        one;
+        }
+        .item2
+        {
+        background-color:
+        rgb(246,
+        179,
+        35);
+        grid-area:
+        two;
+        }
+        .item3
+        {
+        background-color:
+        rgb(31,
+        184,
+        31);
+        grid-area:
+        three;
+        }
+        .item4
+        {
+        background-color:
+        rgb(62,
+        174,
+        244);
+        grid-area:
+        four;
+        }
+        .item5
+        {
+        background-color:
+        rgb(62,
+        174,
+        244);
+        grid-area:
+        five;
+        }
+    </style>
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="grid item1">1</div>
+            <div class="grid item2">2</div>
+            <div class="grid item3">3</div>
+            <div class="grid item4">4</div>
+            <div class="grid item5">5</div>
+        </div>
+    </main>
+</body>
+
+</html>
